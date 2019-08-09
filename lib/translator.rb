@@ -8,7 +8,7 @@ new_hash = {
   'get_emoji' => {}
 }
 
-emoticons.each do |emoji| 
+emoticons.each do |key, value| 
   get_meaning << 
 end
 
