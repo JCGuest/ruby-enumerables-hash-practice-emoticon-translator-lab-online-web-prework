@@ -8,8 +8,8 @@ new_hash = {
   'get_emoji' => {}
 }
 
-emoticons.each do |key, value| 
-  new_hash[get_meaning][key][value]
+emoji.each do |key, value| 
+  new_hash[get_meaning][value][0] = emoji[key][1]
 end
 
 def get_japanese_emoticon
