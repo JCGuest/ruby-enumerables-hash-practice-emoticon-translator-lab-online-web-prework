@@ -10,6 +10,7 @@ new_hash = {
 
 emoji.each do |key, value| 
   new_hash[get_meaning][value][0] = emoji[key][1]
+  end
 end
 
 def get_japanese_emoticon
