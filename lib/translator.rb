@@ -9,7 +9,7 @@ new_hash = {
 }
 
 emoticons.each do |key, value| 
-  get_meaning << 
+  new_hash[get_meaning][key][value]
 end
 
 def get_japanese_emoticon
